@@ -1,12 +1,15 @@
-import Logins from './views/login/login.component';
-
-import './App.css';
+import Home from "../src/view/home/home";
+import Logins from "../src/view/login/login"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Logins/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/login" element={<Logins/>}/>
+      </Routes>
+    </Router>
   );
 }
 
