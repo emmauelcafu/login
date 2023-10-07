@@ -1,4 +1,6 @@
 import CardLogin from "../../component/card/cardLogin.component"
+import { Link } from "react-router-dom";
+
 
 import "./login.css"
 

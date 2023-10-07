@@ -1,6 +1,6 @@
-import {Router} from "react-router-dom";
+// import {Router} from "react-router-dom";
 
-import Logins from "../login/login";
+// import Logins from "../login/login";
 
 function Home(params) {
     return(
