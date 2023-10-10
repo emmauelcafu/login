@@ -24,7 +24,7 @@ function CardLogin() {
     event.preventDefault();
     const loginData = JSON.stringify(logi);
     axios
-      .post("http://localhost:3001/datos/login", loginData, {
+      .post("http://localhost:3001/login", loginData, {
         headers: {
           "Content-Type": "application/json"
         }
@@ -47,7 +47,7 @@ function CardLogin() {
     <div className="div-content-card">
       <form onSubmit={submitHandler}>
         <div className="div-h4">
-          <h1>BIENVENIDO</h1>
+          <h1>Login</h1>
         </div>
 
         <div className="div-input">
@@ -56,6 +56,7 @@ function CardLogin() {
             placeholder="Username"
             onChange={changeHandler}
             name="username"
+            required
           />
         </div>
 
@@ -65,6 +66,7 @@ function CardLogin() {
             placeholder="Contraseña"
             onChange={changeHandler}
             name="password"
+            required
           />
           <div >
           <button className="div-button"

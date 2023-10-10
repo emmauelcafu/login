@@ -55,18 +55,21 @@ function Registro() {
             placeholder="Nombre"
             onChange={changeHandler}
             name="name"
+            required
           />
           <input
             type="password"
             placeholder="Contraseña"
             onChange={changeHandler}
             name="password"
+            required
           />
           <input
             type="text"
             placeholder="Correo"
             onChange={changeHandler}
             name="gmail"
+            required
           />
           <button>Enviar</button>
         </form>

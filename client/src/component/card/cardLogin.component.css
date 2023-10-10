@@ -1,5 +1,5 @@
 .div-content-card{
-    background-color: rgba(86, 171, 211, 0.808);
+    background-color: rgb(255, 255, 255);
     width: 350px;
     height: 400px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -21,7 +21,8 @@
     border: none;
     line-height: 3;
     border-radius: 3px;
-    font-size:15px
+    font-size:15px;
+    background-color: antiquewhite;
 }
 
 .div-input input[type="password"]{
@@ -30,7 +31,8 @@
     border: none;
     line-height: 3;
     border-radius: 3px;
-    font-size:15px
+    font-size:15px;
+    background-color: antiquewhite;
 }
 
 
@@ -47,7 +49,7 @@
 
 }
 .div-submit input{
-    background-color: rgba(106, 180, 214, 0.808);
+    background-color: rgba(19, 166, 235, 0.808);
     border: none;
     align-items: center;
     border-radius: 2px;
