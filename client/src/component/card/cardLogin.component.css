@@ -48,13 +48,13 @@
     justify-content: center;
 
 }
-.div-submit input{
+/* .div-submit input{
     background-color: rgba(19, 166, 235, 0.808);
     border: none;
     align-items: center;
     border-radius: 2px;
     cursor: pointer;
-}
+} */
 
 .div-p{
     font-size: 15px;
@@ -63,12 +63,12 @@
 }
 .div-button{
     margin-top: 30px;
-    width: 20px; /* Ancho deseado */
-    height: 20px; /* Altura deseada */
-    background-color: #030e1a; /* Color de fondo del botón */
-    color: #fff; /* Color del texto */
-    font-size: 16px; /* Tamaño del texto */
-    border: none; /* Elimina el borde */
+    width: 20px; 
+    height: 20px;
+    background-color: #030e1a; 
+    color: #fff; 
+    font-size: 16px; 
+    border: none; 
     cursor: pointer;
     border-radius: 20px;
     text-align: center;

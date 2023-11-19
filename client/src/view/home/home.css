@@ -1,0 +1,19 @@
+.component-one{
+    background-color:   rgba(209, 205, 205, 0.712);
+    height: 100vh; /* Establece la altura al 100% de la altura de la ventana */
+  width: 100vw;  
+
+}
+h1{
+padding: 50px;
+    text-align: center;
+}
+
+.container-div-submit{
+ 
+display: flex;
+justify-content: center;
+
+margin-top: 200px;
+
+}

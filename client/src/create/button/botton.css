@@ -1,0 +1,17 @@
+
+/* botton.css */
+.component-input {
+    background-color: blueviolet;
+    height: 30px;
+    min-width: 50px; /* Cambiado a min-width */
+    padding: 0 10px; /* Ajustado el relleno */
+    border-radius: 7px;
+    border: none;
+    border-color: transparent;
+    box-shadow: 5px 2px 8px rgba(0, 0, 0, 0.459);
+  }
+  
+  .component-input:hover {
+    background-color: #ffffff;
+  }
+  

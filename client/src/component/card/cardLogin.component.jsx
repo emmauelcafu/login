@@ -2,6 +2,7 @@ import "./cardLogin.component.css";
 import { useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import Button from "../../create/button/button";
 
 function CardLogin() {
   const [logi, setLogi] = useState({
@@ -79,7 +80,8 @@ function CardLogin() {
         </div>
 
         <div className="div-submit">
-          <input type="submit" value="Iniciar Sesión" />
+          {/* <input type="submit" value="Iniciar Sesión" /> */}
+          <Button name="Iniciar Sesión"/>
         </div>
 
         <div className="div-p">

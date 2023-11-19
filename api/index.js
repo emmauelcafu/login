@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.use("/",router);
+
 //bd conexion con el backend
 (async () => {
   try {

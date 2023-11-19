@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import Button from "../../create/button/button";
 
 import "./registrar.css";
 
@@ -71,10 +72,10 @@ function Registro() {
             name="gmail"
             required
           />
-          <button>Enviar</button>
+          <Button name="enviar"/>
         </form>
         <Link to={"/login"}>
-          <button>Ir a Login</button>
+          <Button name="ir al login"/>
         </Link>
       </div>
     </div>
