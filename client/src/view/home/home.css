@@ -5,8 +5,13 @@
 
 }
 h1{
-padding: 50px;
-    text-align: center;
+
+padding: 5px;
+
+
+    display: flex;
+    justify-content: center;
+        
 }
 
 .container-div-submit{

@@ -48,16 +48,19 @@ function Registro() {
       <div className="div-registrar">
         <form onSubmit={submitHandler}>
           <div>
-            <h1>Registrándome</h1>
+            <h1>Registrate</h1>
           </div>
 
+          <div className="div-input">
           <input
             type="text"
-            placeholder="Nombre"
+            placeholder="Usuario"
             onChange={changeHandler}
             name="name"
             required
           />
+          </div>
+          <div className="div-input">
           <input
             type="password"
             placeholder="Contraseña"
@@ -65,6 +68,8 @@ function Registro() {
             name="password"
             required
           />
+          </div>
+          <div className="div-input">
           <input
             type="text"
             placeholder="Correo"
@@ -72,6 +77,7 @@ function Registro() {
             name="gmail"
             required
           />
+          </div>
           <Button name="enviar"/>
         </form>
         <Link to={"/login"}>
